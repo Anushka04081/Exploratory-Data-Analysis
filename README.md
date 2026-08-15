@@ -57,33 +57,65 @@ The project includes:
 - Income distribution by Gender
 - Correlation Heatmap
 
+### Visualizations
+
+**Gender Distribution**
+
+![Gender Distribution](images/gender_distribution.png)
+
+**Age Distribution**
+
+![Age Distribution](images/age_distribution.png)
+
+**Annual Income Distribution**
+
+![Income Distribution](images/income_distribution.png)
+
+**Spending Score Distribution**
+
+![Spending Score Distribution](images/spending_score_distribution.png)
+
+**Age vs Spending Score**
+
+![Age vs Spending](images/age_vs_spending.png)
+
+**Annual Income vs Spending Score**
+
+![Income vs Spending](images/income_vs_spending.png)
+
+**Income Distribution by Gender**
+
+![Income by Gender](images/income_by_gender.png)
+
+**Correlation Heatmap**
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+
 ---
 
 ## 📁 Project Structure
-
-```
 Mall-Customer-EDA/
 │
 ├── data/
-│   └── Mall_Customers.csv
+│ └── Mall_Customers.csv
 │
 ├── images/
-│   ├── gender_distribution.png
-│   ├── age_distribution.png
-│   ├── income_distribution.png
-│   ├── spending_score_distribution.png
-│   ├── age_vs_spending.png
-│   ├── income_vs_spending.png
-│   ├── income_by_gender.png
-│   └── correlation_heatmap.png
+│ ├── gender_distribution.png
+│ ├── age_distribution.png
+│ ├── income_distribution.png
+│ ├── spending_score_distribution.png
+│ ├── age_vs_spending.png
+│ ├── income_vs_spending.png
+│ ├── income_by_gender.png
+│ └── correlation_heatmap.png
 │
 ├── notebooks/
-│   └── Mall_Customer_EDA.ipynb
+│ └── Mall_Customer_EDA.ipynb
 │
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```
+
 
 ---
 
@@ -108,17 +140,79 @@ pip install -r requirements.txt
 
 3. Open the notebook:
 
-```
 notebooks/Mall_Customer_EDA.ipynb
-```
+
 
 4. Run all cells.
 
 ---
 
-
-
 ## 📌 Conclusion
 
 This project demonstrates how Exploratory Data Analysis (EDA) can be used to understand customer behaviour through statistical summaries and visualizations. The insights obtained can support customer segmentation and future machine learning applications.
 
+To use it: open README.md in VS Code, select all (Ctrl+A), delete, paste this in, save (Ctrl+S), then push with git add . → git commit -m "Update README" → git push.
+
+now give the part starting from ## 📁 Project Structure
+
+Here's the section starting from ## 📁 Project Structure to the end:
+
+markdown
+## 📁 Project Structure
+
+Mall-Customer-EDA/
+│
+├── data/
+│ └── Mall_Customers.csv
+│
+├── images/
+│ ├── gender_distribution.png
+│ ├── age_distribution.png
+│ ├── income_distribution.png
+│ ├── spending_score_distribution.png
+│ ├── age_vs_spending.png
+│ ├── income_vs_spending.png
+│ ├── income_by_gender.png
+│ └── correlation_heatmap.png
+│
+├── notebooks/
+│ └── Mall_Customer_EDA.ipynb
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+
+---
+
+## 📈 Key Findings
+
+- The dataset contains customer demographic and spending information.
+- Customer spending behaviour varies across different age groups.
+- Annual income alone does not determine spending behaviour.
+- Different customer segments can be identified based on income and spending score.
+- Correlation analysis helps understand relationships among numerical features.
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository.
+2. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the notebook:
+
+notebooks/Mall_Customer_EDA.ipynb
+
+
+4. Run all cells.
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates how Exploratory Data Analysis (EDA) can be used to understand customer behaviour through statistical summaries and visualizations. The insights obtained can support customer segmentation and future machine learning applications.
